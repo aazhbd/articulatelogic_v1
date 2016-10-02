@@ -1,0 +1,217 @@
+ArtMail is a simple and elegant Mail Client Tool. It can download your POP3 emails from server and send emails. It is a freeware, developed by Articulate Logic (c) 2009, a product for the Windows platform. Anyone can freely use and distribute ArtMail. It allows any user having a POP3 account in a mail server, to download and send emails.
+Articulate Logic has just released a new version of its ArtMail that lets users to check POP3 email account directly. Users can create several email accounts and connect to one of their POP3 email servers and download mails to their local machine. Emails can be viewed instantly after download and they can be saved for offline viewing. 
+
+ArtMail is developed using C#, dot Net 2.0 framework and SQLite database platform. 
+
+Right now this version only works for POP3 service (in Windows) but it will be headed to support Web mails as well. We are also hoping to deploy it for the Linux platform in the near future. Some of the new features included with Art Client are address book, and offline browsing of emails and saving emails to a custom format that can be read later.
+
+Features of ArtMail
+Simple design
+User-friendly
+Secured
+Reliable
+Fast email download
+Caching emails
+Saving emails to database
+Saving emails to files
+Support for sending and receiving both plain text and html emails
+Sending and receiving multiple attachments
+Saving multiple attachments to hard drive.
+Downloading selected emails without deleting emails from email servers.
+Creating and maintaining multiple POP3 email accounts.
+Built-in address book to keep emails and addresses.
+Features for replying and forwarding emails.
+
+
+ArtMail has an intuitively designed ‘Mail Parser’ along with a ‘Mime Message Parser’, which together makes the design suitable to parse any kind of emails in MIME format. Mail Parser forms the main driving engine for the ArtMail that makes connection to the server and downloads emails sequentially. These downloaded emails are one by one parsed according to its MIME message format and made suitable to be read by the email receiver.
+
+
+
+<div align="center" style="width: 95%;">
+<p><a href="../f/ArtMail"><img alt="" src="../interface/images/downnow.gif" /></a></p>
+</div>
+
+
+
+<h3>System Requirements</h3>
+<div>
+<ul>
+    <ul>
+        <li><a href="http://download.microsoft.com/download/5/6/7/567758a3-759e-473e-bf8f-52154438565a/dotnetfx.exe">Dot NET framework 2.0 or higher</a></li>
+    </ul>
+    <ul>
+        <li>Windows OS</li>
+    </ul>
+    <ul>
+        <li>At least 250 Mega Bytes of free hard disk space</li>
+    </ul>
+    <ul>
+        <li>Pentium III or higher processor speed</li>
+    </ul>
+</ul>
+</div>
+<div align="center" style="width: 95%;">
+<p><a href="../f/ArtMail"><img alt="" src="../interface/images/downnow.gif" /></a></p>
+</div>
+<div>
+<ul>
+    <div style="float: left; width: 98%;">
+    <ul>
+        <li><a href="http://download.microsoft.com/download/5/6/7/567758a3-759e-473e-bf8f-52154438565a/dotnetfx.exe">Download .Net Framework 2.0 or higher</a></li>
+    </ul>
+    </div>
+    <div style="float: left; width: 98%;">
+    <ul>
+        <li><a href="mailto:web@articulatelogic.com">Your Feedback</a></li>
+    </ul>
+    </div>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+ArticulateCMS is a simple Open Source Content Management System platform for publishing text contents on the internet. It is also a Model-View-Controller (MVC) Web Application framework. 
+It is powered by ArticulatePHP framework and MySQL. 
+It is coded in PHP and uses MySQL as its database engine. It is maintained by Smarty template engine, PDO to manage the MySQL database, JQuery for JavaScript functionalities, and FCK editor for content editing. It supports page caching, publishing of blogs, articles, and searching for contents. It is designed to be simple, robust, flexible, scalable, portable, secured and search engine optimized.
+
+
+Components
+ArticulateCMS consists of the following essential components which makes ArticulateCMS a very powerful tool for web content publishing.
+
+PHP scripting code base
+MySQL database Engine
+Smarty Template Engine
+PHP Data Objects (PDO) extension 
+JQuery JavaScript library
+FCK Editor
+Swift Mailer
+Library for managing database connection with PDO extension.
+Function library for simple static functionalities
+Simple error handling and reporting system.
+ArticulatePHP framework setup
+
+
+
+
+
+
+Why ArticulateCMS?
+
+Well organized with simplified design
+User-friendly interface
+Feature rich admin panel
+Fast and Robust
+Caching of pages supported
+Ease of creating static and dynamic pages on the fly with the help of a powerful editor
+Secured
+Simple and easy to learn and manage web contents
+Search Engine optimized URL
+
+
+
+It is an Open Source Web Application framework to develop scalable web applications with elegant management of codes in the Model-View- Controller approach using PHP and MySQL.
+
+It is powered by Smarty Template engine, PDO and JQuery. Its organization is very simplified and robust. It is an easy to use framework for PHP software developers.
+
+
+Components
+ArticulateCMS consists of the following essential components which makes ArticulateCMS a very powerful tool for web content publishing.
+
+PHP scripting code base
+MySQL database Engine
+Smarty Template Engine
+PHP Data Objects (PDO) extension 
+JQuery JavaScript library
+FCK Editor
+Swift Mailer
+Library for managing database connection with PDO extension.
+Function library for simple static functionalities
+Simple error handling and reporting system.
+ArticulatePHP framework setup
+
+
+
+
+
+
+
+
+
+The Organization
+
+In ArtculatePHP folder, there are four folders and boot-strapper file, index.php:
+
+1.	config – It keeps a file called project.class.php. This php file initializes the template object, database connection object and other project configuration objects and references for the included files that are required to be loaded during project initialization.
+
+2.	data --- This folder keeps the php class library files for database access.
+
+3.	interface – Interface folder keeps the template files required for the view layer. It also keeps the CSS files and Images
+
+4.	libs – This folder keeps the class libraries and functions required.
+5.	scripts – This folder keeps all kinds of third party javascript, css and php files and folders.
+
+
+The index.php file is at the root of the project folder that acts as bootstrapper. All requests to the pages of a website are directed to this page. Moreover according to this framework all POST and GET requests are processed by individual controller pages kept in the parent directory and not redirected to the index.php file.
+
+This simplified design has been very helpful for any small or large scale website project development. Websites such as www.articulatelogic.com, www.conveylive.com are exclusively developed using this framework. We are very hopeful that this framework will prove to be very useful for all PHP MySQL developers. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conveylive.com is a newly launched, popular website of ArticulateLogic. It helps people to share their creative knowledge and multimedia with their friends and the entire world. Its first release was made on September 6th, 2009. The second release was launched on January 31st 2010.
+Social Networking: 
+Conveylive.com is the social networking platform for all individuals who want to keep in touch with their friends, colleagues and families at home and abroad from all over the world. You may create a feature rich profile and keep updating each day and share each other’s news in easy, painless and versatile ways. Join in conveylive.com and make your own profile. Add your friends and keep in touch. 
+Create your pages:
+Ability to publish your own page on the web and multimedia contents on the fly is an exclusive feature of conveylive.com. Conveylive.com provides you with a rich html text editor which you can use to create your page with your custom formatting. The moment you confirm and submit your page, it gets published. As soon as it is published, search engines like google, Bing, Yahoo etc will surely crawl your page and make it available to people all over the world. All pages and contents in conveylive.com have search engine friendly urls. Moreover, you can also provide your own custom keywords list to make your page more easily available to search engines.
+Make your mark on the web! Share your rich multimedia Webpages and publish your articles or any sort of page at all. View and read from the large collection of pages in conveylive.com and find any information you need.
+Publish & Browse Music: 
+People all round the world would like to make their voice to be heard.  Conveylive.com is one such place where you may upload your audios and make it available for everyone on the internet to hear what you have to say. Not just your own voice recording, you may upload any song or recordings to share with the world.  You may send invitation to all your friends and family to listen to the audios you hear in conveylive.com. Browse music by genre as well as by artist, or most viewed and most rated. 
+Put your songs, music, podcast or any sort of audio and listen to the large collection that others have uploaded. Find out the ease in sharing your sound.
+Publish and Browse Video:
+Conveylive.com lets you publish your own videos in a variety of formats and browse all of them by category or in order of latest, most rated or most viewed. You may also want to email the link to any conveylive.com video right away to your friends.
+Put any sort of videos, screen cast and let the world dazzle with your creativity, publish them in the easiest and painless way.
+Publish and Join Clubs: 
+The most effective online groups, that help you to collaborate with your friends and colleagues, share files, spreadsheets, documents, images, manage and conduct events, mailing lists and build up strong group for your own goal.
+Browse new and happening clubs of conveylive.com by category and share your thoughts with all members.  
+Blogs: 
+The easiest way to create your own feature rich and most customizable blog and be in touch with anyone by  updating your information in any way you like.
+Search Friends:
+Find and make new friends and reconnect with the old ones with the help of the defined searching method on the web. Searching made easy. 
+Any content published in conveylive.com becomes available to the search engines quickly, making room for your content to have more visitors and traffic. The conveylive.com makes it easy for you to put your ads or showcase yourself on the way.
+
+Key Features
+1. Enabling the sharing of all kinds of multimedia contents with your friends and the world.
+2. Promoting your media contents by user rating and view counts.
+3. Ability to express your opinions about other's content by means of comments in each media.
+4. All contents have search engine friendly URLs.
+5. Searching made easy for you to search your friends from your email address book and conveylive.com community.
+6. Easy Publishing and viewing of all contents.
+7. Ability to control user privacy and content visibility level.
+8. Instant emailing feature with all your contents in order to invite your friends to view any particular content of yours or other users.
+9. News feed for all contents that your friends are publishing including status messages.
+10. Enhanced profile view with all your content publishing history, personal and global information.
+11. Ability to make new friends.
+12. Sending private messages to other users and your friends.
+13. Ability to block unwanted people from friend list.
+14. Sharing files and conducting creative discussions in clubs with club members.
+
+The user friendly design approach of conveylive.com has attracted a good number of visitors throughout the globe. People can actually share their views and multimedia contents all in one place and in various ways.

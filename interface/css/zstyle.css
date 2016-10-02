@@ -1,0 +1,817 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    width: 57em;
+    margin: 5px auto;
+    font: 100% "Cambria", Georgia, "Calibri", "Trebuchet MS", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+    background: #192d40 url('../images/bg.jpg') repeat-x;
+}
+
+div {
+    overflow:hidden;
+    height:auto;
+}
+
+ul{
+    list-style:none;
+}
+
+p{
+    text-align:justify;
+    line-height: 1.5em;
+}
+
+p a{
+    color: #1D62B3;
+}
+
+a {
+    text-decoration: none;
+    color: #049;
+}
+
+a:hover {
+    text-decoration:none;
+    background:#dceeff;
+    color:#049;
+}
+
+img{
+    border: none;
+}
+
+
+#wrapper {
+    margin:0 auto;
+    padding:2px;
+    background:#fff;
+}
+
+/*Sidebar */
+#sidebar {
+    width: 25%;
+    float:right;
+    padding:5px;
+    display: block;
+}
+/*Sidebar*/
+
+.fbox{
+    background: #fff url('../images/side.gif') repeat-x;
+    border-bottom: #ccc solid 3px;
+    border-right: #ccc solid 2px;
+    border-left: #ccc solid 1px;
+    border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    padding: 4px;
+    margin-bottom: 5px;
+    height: 80px;
+    display: block;
+    text-align: left;
+}
+
+.fbox:hover{
+    background: #dceeff;
+    border-bottom: #999 solid 3px;
+    border-right: #999 solid 2px;
+    border-left: #ccc solid 1px;
+    color:#000;
+    display: block;
+    text-align: left;
+}
+
+.fbox .quicktitle{
+    font-size: 0.9em;
+    color: #000; 
+    margin-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.fbox img{
+    float: right;
+    width: 40px;
+    margin: 10px;
+    border: none;
+}
+
+.quicklinks{
+    margin-left: 10px;
+    font-size: .8em;
+    display: block;
+    margin-top: 14px;
+    padding-bottom: 10px;
+}
+
+/* reports starts here */
+
+#reports{
+    color:#000;
+    width:auto;
+    height:20px;
+    background:#cfc;
+    border: 1px solid #0f0;
+    padding:5px;
+    margin:3px;
+}
+
+#reps{
+    color:#000;
+    width:auto;
+    height:20px;
+    background:#cfc;
+    border: 1px solid #0f0;
+    padding:5px;
+    margin:3px;
+}
+
+/* reports ends here */
+
+/* error starts here */
+
+#errors{
+    color:#000;
+    width:auto;
+    background:#FCC;
+    border: 1px solid #F00;
+    padding:3px;
+    margin:3px;
+}
+/* error ends here */
+
+
+/* logo starts here */
+
+#logo{
+    height:72px;
+    border: none;
+    padding:0;
+}
+
+#logo:hover{
+    margin:0;
+}
+
+/* logo ends here */ 
+
+
+/* banner starts here */
+
+#banner{
+    padding-top: .8em;
+/*    padding-bottom: .5em;*/
+    background: #fff;
+    text-align: left;
+}
+
+/* banner ends here */
+
+#topright{
+    float: left;
+    width: 300px;
+    height: 59px;
+    margin-top:25px;
+    background: #fff;
+}
+
+#toplinks{
+    float:left;
+    padding:2px;
+}
+
+#title{
+    font-size:1.2em;
+    padding: 7px;
+    margin: 2px;
+    color:#046;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+
+.subtitle{
+    font-size:.9em;
+    padding: 7px;
+    margin: 2px;
+    color:#113;
+}
+
+/*Contents Start*/
+
+#contents
+{
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    width: 70%;
+    text-align:left;
+    margin: 0 auto;
+    padding: .8em;    
+}
+
+#contents h2
+{
+    font-size:1.2em;
+    padding: 7px;
+    margin: 2px;
+    color: #046;
+    border-bottom: 1px dotted #ccc;
+}
+
+#contents h3
+{
+    font-size:1em;
+    padding: 7px;
+    margin: 2px;
+    color:#113;
+}
+
+#contents h4
+{
+    font-size:0.9em;
+    padding: 5px;
+    margin: 2px;
+    color:#113;
+}
+
+#contents p
+{
+    font-size:0.9em;
+    text-align:justify;
+    padding: 7px;
+    margin: 2px;
+}
+
+#contents p a
+{
+    color:#049;
+}
+
+#textbody ul, #contents ul li{
+    list-style:square inside url("../images/arrow_gray.gif");
+    margin-left: 10px;
+/*    font-size: 0.8em;*/
+}
+
+/*Contents End*/
+
+/* footer starts here*/
+
+#footer {
+    padding:2px;
+    text-align:center;
+    font-family: "Calibri", Arial;
+    border-top:1px solid #ccc;
+    margin:0px auto;
+    font-size: 0.8em;
+    background: #fff;
+}
+
+#footer p{
+    color: #fff;
+    font-weight: bold;
+    padding: 18px;
+    background: #fff url('../images/footerback.gif') repeat-x;
+    text-align: center;
+}
+
+#footer p a{
+    color: #ccdff1;
+    text-align: center;
+}
+
+#footer p a:hover{
+    background:none;
+}
+
+/* footer ends here*/
+
+
+/*Admin Panel CSS Start*/
+
+.adminpanel{
+    border:1px solid #aaa;
+    background:#fff;
+    padding:10px;
+    padding-bottom:25px;
+    padding-top:25px;
+    margin:1px;
+    border:1px solid #ccc;
+}
+
+.tblmain{
+    border-collapse:collapse;
+    width:98%;
+}
+
+.tblheader{
+    background:#EDF4FA repeat-x;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12em;
+    font-weight:bolder;
+    text-align:center;
+    color:#000;
+    padding:5px;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;    
+}
+
+
+
+.imgbox{
+    background:#CCC;
+    padding:10px;
+    width:50px;
+    height:40px;
+    float:left;
+}
+
+#imglinks{
+    text-decoration: none;
+    border:solid #ccc;
+}
+
+#imglinks:hover{
+    text-decoration: none;
+    border:solid #eee;
+}
+
+.blanksp{
+    width:20px;
+    height:80px;
+    padding:10px;
+    background:#aaa;
+    float:left;
+}
+
+.txtbox{
+    background:#369;
+    padding:10px;
+    width:300px;
+    height:100px;
+    text-align:center;
+}
+
+.txtbox:hover{
+    background:#69C;
+    padding:10px;
+    width:300px;
+    height:40px;
+    text-align:center;
+}
+
+.linegap{
+    background:#FFF;
+    height:10px;
+    width:100%;
+}
+
+.tblhead{
+    background:#aaa;
+    color:#fff;
+    font-weight:bolder;
+}
+
+.tblfield{
+    width:80px;
+    float:left;
+    padding:5px;
+    font-size: 0.8em;
+}
+
+.subinfo{
+    font:Arial, Helvetica, sans-serif italic;
+    font-size:12px;
+    text-align:left;
+    padding: 3px;
+    float:left;
+    width: auto;
+}
+
+.topmenu{
+    font:Arial, Helvetica, sans-serif italic;
+    font-size:12px;
+    font-weight: bolder;
+    text-align:left;
+    padding: 5px;
+    float:right;
+    width: 97%;
+    background-color: #D8E2ED;
+    border: 1px solid #ccc;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;    
+}
+
+.topmenu a{
+    font-weight: bolder;
+    text-align:left;
+    padding: 5px;
+    border: 1px solid #D8E2ED;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+}
+
+.topmenu a:hover{
+    font-weight: bolder;
+    text-align:left;
+    padding: 5px;
+    border: 1px solid #D8E2ED;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    background: #fff;
+    color:#69C; /*DAF1E8*/
+}
+
+#selMenu{
+    font-weight: bolder;
+    text-align:left;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #69C;
+    background: #fff;    
+}
+
+.adminbox{
+    font:Arial, Helvetica, sans-serif italic;
+    font-size:14px;
+    font-weight: bolder;
+    float:left;
+    margin:5px;
+    padding:5px;
+    border: 1px solid #eef;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #E8F3F4;
+    background: #fff;
+}
+
+.adminblock{
+    float:left;
+    width: 20%;
+    margin:10px;
+    padding:10px;
+    border: 1px solid #eef;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    color: #1D62B3;
+    background: #fff;
+    display: block;    
+}
+
+.adminblock:hover{
+    float:left;
+    width: 20%;
+    margin:10px;
+    padding:10px;
+    border: 1px solid #eee;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    color:#333;
+    font-weight:bolder;
+    background: #D8E2ED;
+    display: block;    
+}
+/*Admin Panel CSS End*/
+
+/*Page CSS Start*/
+#page_title{
+    color: #3597c5;
+    padding: 10px;
+}
+
+/*Page CSS End*/
+
+
+
+/*Item CSS Start*/
+
+.item{
+    font-size: 0.9em;
+    font-family: "Calibri", Tahoma, Verdana, Helvetica, sans-serif;
+    width: 98%;
+    margin: 3px;
+    padding:4px;
+    background: #fff;
+    min-height: 100px;
+    border: #aaa solid thin;
+    background: url( '../images/side.gif' ) repeat-x;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;    
+}
+
+.item .item-title{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.item .item-title:hover{
+    font-weight: bold;
+}
+
+.item .item-desc{
+    margin-top:7px;
+    padding: 3px;
+    text-align: justify;
+    float:left;
+    width: 78%;
+}
+
+.item .item-img{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 0px;
+    float:left;
+    background: none;
+    border: 1px solid #eef;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+}
+
+.item .item-img:hover{    
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+}
+
+.item a{
+    background: none;
+    border: none;
+}
+
+.item a:hover{
+    color:maroon;
+    background: none;
+    border: none;
+}
+
+.feature{
+    border: #aaa solid thin;
+    padding: 10px;
+    background: url( '../images/side.gif' ) repeat-x;
+    max-height: 600px;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+}
+
+/*Item CSS End*/
+
+/*Search Start*/
+
+.entry{
+    float:left;
+    padding: 5px;
+}
+
+.artcont{
+    float:left;
+    width:96%;
+    margin-top:0px;
+    border-top: 1px dotted #999;
+    border-bottom: 1px dotted #999;
+    padding: 5px 8px 5px 8px;
+    color:#000;
+}
+
+.search #search{
+    width: 220px;
+    border: #ccc 1px solid;
+    margin: 0;
+    padding: 3px;
+    float: left;
+    height: 20px;
+    color:#000;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+}
+
+.search #search:hover{
+    border: #000 1px solid;
+}
+
+.btnsearch{
+    width: 30px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+/*Search End*/
+
+/*Product Boxes Start*/
+
+.bottombox{
+    background: #fff;
+    width: 100%;
+}
+
+.pbox{
+    float:left;
+    color: #fff;
+    font-family: "Calibri", Tahoma, Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", Helvetica, sans-serif;
+    font-weight: normal;
+    background: #fff url('../images/btnbg.gif') repeat-x;
+    margin:3px;
+    height: 125px;
+    width: 24%;
+    display: block;
+    text-align: left;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    border-bottom: #ccc solid 1px;
+    border-right: #ccc solid 1px;
+}
+
+.pbox:hover{
+    border-bottom: #000 solid 1px;
+    border-right: #000 solid 1px;
+}
+
+.pbox a{
+    padding: 5px;
+}
+
+.pbox .sph3{
+    padding: 5px;
+    font-size: 1em;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.pbox img{
+    float: right;
+    width: 40px;
+    margin: 10px;
+    border: none;
+}
+
+.pbox p{
+    text-align: left;
+}
+
+/*Product Boxes End*/
+
+.item-desc .more{
+    float: right;
+    background: #eee url(../images/topbg.gif) repeat scroll 0 0;
+    border: #aaa solid 1px;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    text-align: center;
+    min-width:60px;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin:2px;
+    color:#000;
+}
+
+.item-desc .more:hover{
+    border: #000 solid 1px;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+}
+
+#bigbtn{
+    background: #eee url(../images/downnow.gif) repeat scroll 0 0;
+    border: #aaa solid 1px;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color:#026c93;
+    display: block;
+}
+
+#bigbtn:hover{
+    color:#009ec6;
+    display: block;
+}
+
+#anchors{
+    border: #eee solid 1px;
+    border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    text-align: center;
+    color:#026c93;
+    display: block;
+    min-width: 50px;
+    padding:3px;
+    float:right; 
+}
+
+#anchors:hover{
+    background: #dceeff;
+}
+
+/*Download table*/
+
+.downloadtbl{
+    padding:5px;
+    float:none;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.downloadbox{
+    margin-bottom:2px;
+    margin-top:2px;
+}
+
+.downloadarea{
+    margin-top:5px;
+    padding:2px;
+    border-top: #dceeff  solid 1px;
+    border-bottom: #dceeff  solid 1px;
+    border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+}
+
+.downloadbox span{
+    float:left;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.contleft{
+    float:left;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.contright{
+    float:right;
+}
+
+.dlink{
+    padding-right:10px; 
+}
+
+.dltitle{
+    margin-top: 10px;
+    padding:2px;
+    font-weight: bolder;
+    border-bottom: blue;
+}
+
+/*download page*/
+#toptitle
+{
+    padding:5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+#toptitle h3{
+    font-size:1.2em;
+    float:left; width:40%;
+    padding: 7px;
+    margin: 2px;
+    color: #046;
+}
+
+.download-desc{
+    font-size: 0.9em;
+    font-family: "Calibri", Tahoma, Verdana, Helvetica, sans-serif;
+    width: auto;
+    background: #fff;
+    min-height: 100px;
+    border: #eee solid thin;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;    
+}
